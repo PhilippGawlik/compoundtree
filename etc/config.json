@@ -1,0 +1,63 @@
+{
+	"folds": 4,
+	"process_name_list": [
+		"gold",
+		"grammar",
+		"prediction",
+		"bitpar_input",
+		"cleaned_prediction",
+		"analysis"
+	],
+	"filesystem": {
+		"full_corpus": "../corpora/trees/compoundtree.corpus",
+		"gold_file_path": "../corpora/evalb/",
+		"gold_file": "gold.evalb",
+		"grammar_file_path": "../corpora/bitpar/",
+		"grammar_file": "grammar.bitpar",
+		"prediction_file_path": "../corpora/evalb/",
+		"prediction_file": "predictions.evalb",
+		"cleaned_prediction_file_path": "../corpora/evalb/",
+		"cleaned_prediction_file": "predictions_clean.evalb",
+		"bitpar_input_file_path": "../corpora/bitpar/",
+		"bitpar_input_file": "input.bitpar",
+		"analysis_file_path": "../corpora/evalb/",
+		"analysis_file": "analysis_baseline.evalb"
+	},
+	"default_config": {
+		"input": "../corpora/trees/compoundtree.corpus",
+		"output": "../corpora/pcfg/4000_compounds.annotated",
+		"top": true,
+		"parent": false,
+		"lex": false,
+		"head": false,
+		"verbose": false
+	},
+	"lexicon_config": {
+		"input": "../corpora/pcfg/4000_compounds.annotated",
+		"output": "../corpora/bitpar/lexicon.bitpar",
+		"verbose": false
+	},
+	"grammar_config": {
+		"input": "../corpora/pcfg/train.txt",
+		"output": "../corpora/bitpar/grammar.bitpar",
+		"verbose": false
+	},
+	"bitpar_input_prepare_config": {
+		"input": "../corpora/pcfg/test.txt",
+		"output": "../corpora/bitpar/input.bitpar",
+		"verbose": false
+	},
+	"bitpar_input_config": {
+		"input": "../corpora/bitpar/input.bitpar",
+		"output": "../corpora/evalb/predictions.evalb",
+		"verbose": false,
+		"grammar": "../corpora/grammar.bitpar",
+		"lexicon": "../corpora/bitpar/lexicon.bitpar",
+		"oct": "pipeline/bitpar/bitpar/open-class-tags",
+		"wordclass": "pipeline/bitpar/bitpar/wordclass.txt"
+	},
+	"evalb": {
+		"path": "pipeline/evalb/evalb",
+		"prm_path": "pipeline/evalb/sample/sample.prm"
+	}
+}
