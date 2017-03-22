@@ -12,9 +12,12 @@ Compoundtree Version 1.0; 2017
 
 # INSTALLATION
 
-- programmed by using python 2.7.6
 - see `requirements.txt` for used third-party packages (we recommend to use virtualenv and pip for installation)
-- dot command line tools are required and must be installed. Please see [Graphviz](graphviz.org) for more information
+- perform the following steps:
+  1. virtualenv .env
+  2. source .env/bin/activate
+  3. pip install -r requirements.txt
+- programmed by using python 2.7.6
 
 ---
 
