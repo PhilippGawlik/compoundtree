@@ -9,7 +9,7 @@
 		"analysis"
 	],
 	"filesystem": {
-		"full_corpus": "../corpora/trees/compoundtree.corpus",
+		"full_corpus": "../corpora/trees/compoundtree_dlexdb_format.corpus",
 		"gold_file_path": "../corpora/evalb/",
 		"gold_file": "gold.evalb",
 		"grammar_file_path": "../corpora/bitpar/",
@@ -24,7 +24,7 @@
 		"analysis_file": "analysis_baseline.evalb"
 	},
 	"default_config": {
-		"input": "../corpora/trees/compoundtree.corpus",
+		"input": "../corpora/trees/compoundtree_dlexdb_format.corpus",
 		"output": "../corpora/pcfg/4000_compounds.annotated",
 		"top": true,
 		"parent": false,
