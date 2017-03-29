@@ -1,5 +1,15 @@
 Compoundtree Evaluation Version 1.0 03/01/2017
 
+# LICENSE
+- the present work is licensed under a MIT License
+- the included third party software is not included in the MIT License and holds own license regulations
+- included third party software is:
+	- [evalb](http://nlp.cs.nyu.edu/evalb/)
+	- [bitpar project](http://www.cis.uni-muenchen.de/~schmid/tools/BitPar/)
+	- [graphviz](graphviz.org)
+	- as well as the packages listed in requirements.txt
+
+
 # INSTALLATION
 - programmed by using ´python 2.7.6`
 - please install necessary third-party packages by using `pip -r requirements.txt` 
