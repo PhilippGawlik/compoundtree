@@ -9,7 +9,6 @@ Compoundtree Evaluation Version 1.0 03/01/2017
 	- [graphviz](graphviz.org)
 	- as well as the packages listed in requirements.txt
 
-
 # INSTALLATION
 - programmed by using ´python 2.7.6`
 - please install necessary third-party packages by using `pip -r requirements.txt` 
