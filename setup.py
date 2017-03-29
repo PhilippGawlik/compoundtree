@@ -33,8 +33,8 @@ setup(
         'progress>=1.2<2.0',
         'pyparsing>=2.1.10<2.2',
         'scikit-learn>=0.18.1<0.2.0',
-        'scipy>=0.18.1< 0.19.0',
-        'six>=1.10.01.<1.11.0',
+        'scipy>=0.18.1<0.19.0',
+        'six>=1.10.0<1.11.0',
         'sklearn>=0.0',
     ],
     classifiers=[
