@@ -1,12 +1,5 @@
 # -*- coding: utf-8 -*-
 '''Define file encoding.'''
-#######################################################
-# name: parser.py
-# author: (philipp)
-# date: (Mi 01 Mar 2017 19:36:43 CET)
-# purpose: Parse analyzed compound nouns to provide
-# a syntactic tree.
-######################################################
 
 from concurrent.futures import ProcessPoolExecutor
 import argparse

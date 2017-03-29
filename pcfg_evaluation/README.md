@@ -1,4 +1,4 @@
-Compoundtree Version 1.0 03/01/2017
+Compoundtree Evaluation Version 1.0 03/01/2017
 
 # INSTALLATION
 - programmed by using ´python 2.7.6`
@@ -25,12 +25,6 @@ Compoundtree Version 1.0 03/01/2017
 - to assemble a grammar (needed for bitpar parsing) from the `compoundtree` corpus use `grammar.py`
 - to assemble a lexicon (needes for bitpar parsing) from the `compoundtree` corpus use `lexicon.py`
 - use `parse_list.py` to parse a list of compounds with bitpar
-
-## segmentation_parser
-
-- `parse_segmented_nouns.sh` provides a example of the use of the `compoundtree.parser` package
-- serves the purpose of parsing tokenized compound nouns into morphosyntactic trees
-- parsing procedure is based on pyparsing and provides `grammar.py` as underlying source
 
 ## corpora
 

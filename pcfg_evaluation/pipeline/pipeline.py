@@ -127,7 +127,6 @@ def preprocess_fold(corpora, train_idx, test_idx, config, buf):
     # generate corpora
     fold_corpora['train_trees'] = corpora['y'][train_idx]
     fold_corpora['bitpar_input'] = corpora['y'][test_idx]
-    #fold_corpora['card_gold'] = compound_card[test_idx]
     if config['make_gold']:
         fold_corpora['gold'] = corpora['y'][test_idx]
         write_gold_file(config, fold_corpora)
@@ -202,7 +201,7 @@ def pipeline(config):
     kf = KFold(n_splits=config['folds'])
     for train_idx, test_idx in kf.split(corpora['x']):
         if config['verbose']:
-            print '\nMake {}th fold'.format(buf)
+            print '\nMake {}. fold'.format(buf)
         fold_corpora = preprocess_fold(
             corpora, train_idx, test_idx, config, buf)
         # generate PCFG

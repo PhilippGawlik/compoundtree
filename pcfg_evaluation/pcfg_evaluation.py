@@ -85,6 +85,7 @@ def get_schemes(config):
 
 def print_header(config):
     '''Give an overview about process settings.'''
+    print 'Compoundtree Evaluation Pipeline Version 1.0 03/01/2017'
     print
     print 'Corpus: {}'.format(config['filesystem']['full_corpus'])
     print 'Annotation schemes: {}'.format(get_schemes(config))

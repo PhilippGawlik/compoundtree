@@ -1,12 +1,5 @@
 # -*- coding: utf-8 -*-
 '''Define file encoding.'''
-#######################################################
-# name: tools.py
-# author: Philipp Gawlik
-# date: (Mi 01 Mar 2017 19:36:43 CET)
-# purpose: Some helper functions for parsing compound
-# nouns into tree structures.
-######################################################
 
 import re
 

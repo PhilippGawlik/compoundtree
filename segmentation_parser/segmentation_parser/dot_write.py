@@ -1,10 +1,3 @@
-#######################################################
-# name: dot_write.py
-# author: Philipp Gawlik
-# date: (Mi 01 Mar 2017 19:36:43 CET)
-# purpose: Generate dot definition of tree and write
-# dot definition to file.
-######################################################
 # -*- coding: utf-8 -*-
 '''Define file encoding.'''
 
