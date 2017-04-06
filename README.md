@@ -1,4 +1,8 @@
-Compoundtree Version 1.0; 2017
+Compoundtree Version 1.0 2017
+
+# LICENSE
+
+- license information can be found in `license.txt`
 
 # GENERAL
 
@@ -12,12 +16,11 @@ Compoundtree Version 1.0; 2017
 
 # INSTALLATION
 
-- see `requirements.txt` for used third-party packages (we recommend to use virtualenv and pip for installation)
-- perform the following steps:
-  1. virtualenv .env
-  2. source .env/bin/activate
-  3. pip install -r requirements.txt
+- compoundtree module is developed and tested on ubuntu 14.04
 - programmed by using python 2.7.6
+- install bitpar from: [bitpar project](http://www.cis.uni-muenchen.de/~schmid/tools/BitPar/)
+- [bitpar project](http://www.cis.uni-muenchen.de/~schmid/tools/BitPar/) is already included in the `pcfg_evaluation` module
+- installation: `pip install -e compoundtree/`
 
 ---
 
