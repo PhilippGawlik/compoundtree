@@ -19,7 +19,7 @@ Compoundtree Version 1.0 2017
 - compoundtree module is developed and tested on ubuntu 14.04
 - programmed by using python 2.7.6
 - install bitpar from: [bitpar project](http://www.cis.uni-muenchen.de/~schmid/tools/BitPar/)
-- [bitpar project](http://www.cis.uni-muenchen.de/~schmid/tools/BitPar/) is already included in the `pcfg_evaluation` module
+- [evalb](http://nlp.cs.nyu.edu/evalb/) is already included in the `pcfg_evaluation` module
 - installation: `pip install -e compoundtree/`
 
 ---
